@@ -39,13 +39,13 @@ deploy:
   pre_build:
     - ls
   
-integrations:
-  notifications:
-    - integrationName: email
-      type: email
-      recipients: 
-        - mabcd71@gmail.com
-        - akskas333@gmail.com
-      on_success: always
-      on_failure: always
+# integrations:
+#   notifications:
+#     - integrationName: email
+#       type: email
+#       recipients: 
+#         - mabcd71@gmail.com
+#         - akskas333@gmail.com
+#       on_success: always
+#       on_failure: always
 
